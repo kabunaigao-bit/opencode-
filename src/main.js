@@ -218,16 +218,6 @@ function initMobileMenu() {
   });
 }
 
-function initContactForm() {
-  const form = document.getElementById('contactForm');
-  form?.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const msg = getLang() === 'zh' ? '感谢你的留言！李安然会尽快与你联系。' : 'Thank you! Serena will get back to you soon.';
-    alert(msg);
-    form.reset();
-  });
-}
-
 function initLangToggle() {
   const btn = document.getElementById('langToggle');
   if (!btn) return;
@@ -245,5 +235,4 @@ function initLangToggle() {
 
 renderAll();
 initMobileMenu();
-initContactForm();
 initLangToggle();

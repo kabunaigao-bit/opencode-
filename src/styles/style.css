@@ -680,37 +680,33 @@ img { max-width: 100%; display: block; }
 }
 
 /* ===== Contact ===== */
-.contact-form {
-  max-width: 540px;
+.contact-email {
+  text-align: center;
   margin: 0 auto 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 
-.contact-form input,
-.contact-form textarea {
-  padding: 14px 18px;
-  border: 1px solid var(--border);
-  font-size: 0.9rem;
-  font-family: inherit;
-  background: var(--bg-card);
-  color: var(--text);
-  transition: border-color 0.3s;
-  font-weight: 300;
+.email-link {
+  display: inline-block;
+  font-size: 1.4rem;
+  color: var(--gold);
+  letter-spacing: 2px;
+  transition: all 0.3s;
+  padding: 16px 32px;
+  border: 1px solid var(--gold);
+  text-decoration: none;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
-  outline: none;
-  border-color: var(--gold-muted);
+.email-link:hover {
+  background: var(--gold);
+  color: var(--bg);
+  transform: translateY(-2px);
 }
 
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
+.contact-hint {
+  margin-top: 12px;
+  font-size: 0.8rem;
   color: var(--text-muted);
   letter-spacing: 1px;
-  font-weight: 300;
 }
 
 .social-links {

@@ -167,10 +167,7 @@ const en = {
   contact: {
     title: 'Contact',
     subtitle: "Let's create something remarkable together",
-    namePlaceholder: 'NAME',
-    emailPlaceholder: 'EMAIL',
-    messagePlaceholder: 'MESSAGE',
-    send: 'SEND',
+    hint: 'Click the email to send a message',
   },
   footer: '© 2026 LI ANRAN / SERENA LEE. ALL RIGHTS RESERVED.',
   langSwitch: '中',
