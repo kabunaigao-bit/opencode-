@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>李安然 Serena Lee | 市场营销 · 作品集</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/src/styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#" class="logo">SERENA<span>.</span>LEE</a>
+        <ul class="nav-links">
+          <li><a href="#about" data-i18n="nav.about">ABOUT</a></li>
+          <li><a href="#experience" data-i18n="nav.experience">EXPERIENCE</a></li>
+          <li><a href="#projects" data-i18n="nav.works">WORKS</a></li>
+          <li><a href="#skills" data-i18n="nav.skills">SKILLS</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">CONTACT</a></li>
+        </ul>
+        <div class="nav-right">
+          <button class="lang-toggle" id="langToggle">EN</button>
+          <button class="menu-toggle" aria-label="菜单">&#9776;</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-content">
+          <h1 id="heroName"></h1>
+          <p class="subtitle" data-i18n="hero.title">SERENA LEE · 市场营销主管</p>
+          <div class="divider"></div>
+          <p class="tagline" data-i18n="hero.tagline">用数据驱动增长，以内容构建品牌心智</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" data-i18n="hero.viewWorks">VIEW WORKS</a>
+            <a href="#contact" class="btn btn-outline" data-i18n="hero.contact">CONTACT</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-title" data-i18n="about.title">About</h2>
+          <p class="section-subtitle" data-i18n="about.subtitle">品牌营销 · 新媒体运营 · 数据驱动</p>
+          <div class="about-content">
+            <div class="about-text">
+              <p data-i18n="about.p1">拥有 5 年品牌营销与新媒体系化运营经验...</p>
+              <p data-i18n="about.p2">曾任职于小红书、快手等互联网大厂...</p>
+              <p data-i18n="about.p3">坚信「内容即流量，数据即方向」...</p>
+            </div>
+            <div class="about-stats" id="aboutStats"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title" data-i18n="experience.title">Experience</h2>
+          <p class="section-subtitle" data-i18n="experience.subtitle">从大厂到品牌，专注增长与转化</p>
+          <div class="timeline" id="timeline"></div>
+
+          <div class="education-wrapper">
+            <div class="education-label" data-i18n="experience.educationLabel">Education</div>
+            <div class="education-card">
+              <div class="education-school" data-i18n="experience.education.school">Auckland University of Technology</div>
+              <div class="education-major" data-i18n="experience.education.major">传播学 · 本科</div>
+              <div class="education-date" data-i18n="experience.education.date">2017 — 2020</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2 class="section-title" data-i18n="projects.title">Works</h2>
+          <p class="section-subtitle" data-i18n="projects.subtitle">核心项目案例与数据成果</p>
+          <div class="project-grid" id="projectGrid"></div>
+        </div>
+      </section>
+
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <h2 class="section-title" data-i18n="skills.title">Skills</h2>
+          <p class="section-subtitle" data-i18n="skills.subtitle">全栈营销技能，数据驱动决策</p>
+          <div class="skills-content" id="skillsContent"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2 class="section-title" data-i18n="contact.title">Contact</h2>
+          <p class="section-subtitle" data-i18n="contact.subtitle">Let's create something remarkable together</p>
+          <form class="contact-form" id="contactForm">
+            <input type="text" data-i18n="contact.namePlaceholder" placeholder="NAME" required />
+            <input type="email" data-i18n="contact.emailPlaceholder" placeholder="EMAIL" required />
+            <textarea rows="5" data-i18n="contact.messagePlaceholder" placeholder="MESSAGE" required></textarea>
+            <button type="submit" class="btn btn-primary" data-i18n="contact.send">SEND</button>
+          </form>
+          <div class="social-links">
+            <a href="#" title="小红书">XIAOHONGSHU</a>
+            <a href="#" title="微信公众号">WECHAT</a>
+            <a href="#" title="知乎">ZHIHU</a>
+            <a href="#" title="LinkedIn">LINKEDIN</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p data-i18n="footer">© 2026 LI ANRAN / SERENA LEE. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
