@@ -2,7 +2,7 @@ const zh = {
   nav: {
     about: '关于',
     experience: '经历',
-    works: '作品',
+    portfolio: '作品',
     skills: '技能',
     contact: '联系',
   },
@@ -77,6 +77,10 @@ const zh = {
         tags: ['内容创作', '商务合作', '社群运营', '品牌推广'],
       },
     ],
+  },
+  portfolio: {
+    title: 'Portfolio',
+    subtitle: '点击图片查看大图',
   },
   projects: {
     title: 'Works',

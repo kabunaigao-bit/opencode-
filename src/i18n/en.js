@@ -2,7 +2,7 @@ const en = {
   nav: {
     about: 'About',
     experience: 'Experience',
-    works: 'Works',
+    portfolio: 'Works',
     skills: 'Skills',
     contact: 'Contact',
   },
@@ -77,6 +77,10 @@ const en = {
         tags: ['Content Creation', 'Business Dev', 'Community', 'Branding'],
       },
     ],
+  },
+  portfolio: {
+    title: 'Portfolio',
+    subtitle: 'Click images to view full size',
   },
   projects: {
     title: 'Works',
